@@ -1,0 +1,172 @@
+*{
+    margin: 0%;
+}
+/* common style */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.heading-of-banner{
+    font-size: 75px;
+}
+.banner-disc{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.btn-primary{
+    padding: 15px 25px;
+    font-size: 18px;
+    background-color: burlywood;
+    border: none;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.header-container{
+    background-image: url("/new-year-new-me/images/banner/banner2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.header-banner{
+    text-align: right;
+    margin-right: 180px;
+}
+
+
+/* main */
+.failures-container{
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    gap: 120px;
+}
+.failures-disc ul{
+    list-style-type: none;
+    margin-top: 18px;
+}
+.failures-disc li{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.icon{
+    color: greenyellow;
+    margin-right: 10px;
+}
+
+/* plans */
+.my-plans-container{
+text-align: center;
+margin: 45px 0px;
+}
+.plans-card{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    
+}
+.section-card{
+margin-left: 45px;
+
+}
+
+.section-card h1{
+  
+    margin-top: 15px;
+}
+.section-card{
+     
+}
+.section-card h3{
+    margin-top: 15px;
+}
+
+
+/* watch banner */
+.watch-banner{
+  background-image: url("/new-year-new-me/images/watch.png");
+  background-repeat: no-repeat;
+  position: relative;
+   color: rgb(0, 0, 0);
+  
+}
+.img-1{
+    position: absolute;
+}
+.banner-content{
+    position: absolute;
+}
+.watch-banner h1{
+    position: absolute;
+    margin: 75px 200px;
+    padding: 25px 18px;
+   
+    font-size: 45px;
+}
+
+
+.watch-banner button{
+    position: absolute;
+    margin: 230px 215px;
+    background-color: rgba(123, 6, 76, 0.711);
+    padding: 15px 35px;
+    color: white;
+    font-size: 19px;
+    border: none;
+    border-radius: 5px;
+}
+/*Footer section  */
+footer{
+    padding: 50px 200px;
+  display: flex;
+  gap: 50px;
+  background-color: rgb(35, 29, 29);
+  color: white;
+
+}
+/* Left div  */
+.left-div{
+    width: 50%;
+
+}
+.left-div h1{
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+.left-div p{
+    opacity: 0.7;
+    margin-bottom: 15px;
+}
+.left-div img{
+    margin-right: 10px;
+}
+
+
+/* right div */
+.right-div{
+    padding-left: 15px;
+}
+.right-div h1{
+    margin-bottom: 16px;
+}
+.right-div input{
+    padding: 15px 45px;
+    display: block;
+    background-color: rgb(35, 29, 29);
+   font-size: 20px;
+   border: 2px solid white;
+   border-radius: 5px;
+   margin-bottom: 16px;
+}
+.right-div button{
+    background-color: rgb(255, 255, 255);
+    padding: 15px 35px;
+    color: rgba(219, 0, 0, 0.789);
+    font-size: 19px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
