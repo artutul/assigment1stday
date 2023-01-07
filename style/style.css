@@ -5,7 +5,7 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-
+/* Header style */
 .heading-of-banner{
     font-size: 75px;
 }
@@ -16,13 +16,15 @@ body{
 .btn-primary{
     padding: 15px 25px;
     font-size: 18px;
-    background-color: burlywood;
+    background-color: rgb(178, 72, 56);
+    color: white;
+    
     border: none;
     margin-top: 15px;
     border-radius: 5px;
 }
 .header-container{
-    background-image: url("/new-year-new-me/images/banner/banner2.png");
+    background-image: url("/images/banner/banner2.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -37,7 +39,7 @@ body{
 }
 
 
-/* main */
+/* Main section Style */
 .failures-container{
     display: flex;
     align-items: center;
@@ -57,7 +59,7 @@ body{
     margin-right: 10px;
 }
 
-/* plans */
+/* plans Section Style */
 .my-plans-container{
 text-align: center;
 margin: 45px 0px;
@@ -85,47 +87,46 @@ margin-left: 45px;
 }
 
 
-/* watch banner */
+/* Gradient section */
 .watch-banner{
-  background-image: url("/new-year-new-me/images/watch.png");
-  background-repeat: no-repeat;
-  position: relative;
-   color: rgb(0, 0, 0);
-  
+  text-align: center;
+  color: white;
 }
 .img-1{
-    position: absolute;
+   background-image: url("/images/watch.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
 }
 .banner-content{
     position: absolute;
+    margin-top: -250px;
+    margin-left: 230px;
+    text-align: left;
 }
 .watch-banner h1{
-    position: absolute;
-    margin: 75px 200px;
-    padding: 25px 18px;
-   
-    font-size: 45px;
+   font-size: 35px;
 }
 
 
 .watch-banner button{
-    position: absolute;
-    margin: 230px 215px;
-    background-color: rgba(123, 6, 76, 0.711);
-    padding: 15px 35px;
-    color: white;
-    font-size: 19px;
-    border: none;
-    border-radius: 5px;
+  padding: 15px 35px;
+  margin-top: 12px;
+  background-color: darkcyan;
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  font-weight: bold;
 }
 /*Footer section  */
 footer{
-    padding: 50px 200px;
+  padding: 50px 200px;
   display: flex;
   gap: 50px;
   background-color: rgb(35, 29, 29);
   color: white;
-
+ margin-top: 25px;
 }
 /* Left div  */
 .left-div{
